@@ -60,7 +60,7 @@ int main(void)
         strncpy(arr, line, linelen);
         split(arr);
     }
-    printf("count: %d", horizontal*depth);
+    printf("depth * horizontal_position: %d", horizontal*depth);
     fclose(fp);
     if (line)
         free(line);
